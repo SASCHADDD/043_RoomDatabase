@@ -1,6 +1,5 @@
-package com.example.pertemuan9.view.uicontroller
+package com.example.pertemuan9.view
 
-import android.graphics.drawable.Icon
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -37,7 +36,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.pertemuan9.R
 import com.example.pertemuan9.room.Siswa
-import com.example.pertemuan9.view.SiswaTopAppBar
 import com.example.pertemuan9.view.route.DestinasiDetailSiswa
 import com.example.pertemuan9.viewmodel.DetailSiswaUiState
 import com.example.pertemuan9.viewmodel.DetailViewModel

@@ -38,7 +38,7 @@ fun EntrySiswaScreen(
     navigateBack: () -> Unit,
     modifier: Modifier = Modifier,
     // Perbaikan 1: Ubah Factory jadi factory
-    viewModel: EntryViewModel = viewModel(factory = PenyediaViewModel.factory)
+    viewModel: EntryViewModel = viewModel(factory = PenyediaViewModel.Factory)
 ) {
     val coroutineScope = rememberCoroutineScope()
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
